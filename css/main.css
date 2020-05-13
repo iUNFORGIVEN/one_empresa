@@ -1,0 +1,36 @@
+header{
+    width: 100%;
+    position: relative;
+    padding-bottom: 200px;
+    padding-top: 40px;
+    background: url(../img/2927262.jpg) center no-repeat;
+    background-size: cover;   
+}
+header .nav{
+    justify-content: flex-end;
+    align-items: center;
+}
+header .nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+header .nav ul li{
+     display: inline-block;
+
+ }
+ header .nav ul li a{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 4px 12px;
+    margin: 0px 4px ;
+    text-decoration: none;
+ }
+
+header .hero{
+    padding-top: 150px;
+    text-align: center;
+}
+header .hero h1{
+    color: #ffffff;
+}
