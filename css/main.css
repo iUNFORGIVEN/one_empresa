@@ -1,9 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
 header{
     width: 100%;
     position: relative;
     padding-bottom: 200px;
     padding-top: 40px;
-    background: url(../img/2927262.jpg) center no-repeat;
+    background: url(../img/abstrac.jpg) center no-repeat;
     background-size: cover;   
 }
 header .nav{
@@ -28,9 +33,13 @@ header .nav ul li{
  }
 
 header .hero{
-    padding-top: 150px;
+    
     text-align: center;
 }
 header .hero h1{
+    color: #ffffff;
+}
+
+header  .hero h3{
     color: #ffffff;
 }
