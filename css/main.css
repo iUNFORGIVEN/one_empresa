@@ -5,7 +5,7 @@
 }
 header{
     width: 100%;
-    position: relative;
+    position: relative no-repeat;
     padding-bottom: 200px;
     padding-top: 40px;
     background: url(../img/abstrac.jpg) center no-repeat;
@@ -38,11 +38,11 @@ header .nav ul li{
     margin: 0px 4px ;
     text-decoration: none;
     font-family: 'Fira Code', monospace;
-    
- }
+    }
 header .hero img:hover{
     -webkit-transform:scale(1.15);
-    transition:all .9 s ease-in-out;
+    transition:all .90s ease-in-out;
+    
 }
 header .hero{
     
@@ -54,5 +54,21 @@ header .hero h1{
 }
 
 header  .hero h3{
+    color: #ffffff;
+    margin-bottom: 100px;
+}
+.servicios{
+    width: 100%;
+    position: relative no-repeat;
+    padding-bottom: 200px;
+    padding-top: 40px;
+    background: #000000 center no-repeat;
+    background-size: cover;   
+    
+}
+.servicios h1{
+    color: #ffffff;
+}
+.servicios h3{
     color: #ffffff;
 }
