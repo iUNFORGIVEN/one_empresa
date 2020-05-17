@@ -4,12 +4,15 @@
     padding:0;
 }
 header{
-    width: 100%;
+    
     position: relative no-repeat;
     padding-bottom: 200px;
     padding-top: 40px;
-    background: url(../img/abstrac.jpg) center no-repeat;
-    background-size: cover;   
+    background: 100%;
+    background: url(../img/man-in-raglan-sleeve-shirt-using-computer-2330137.jpg) center no-repeat ;
+    background-size: cover;  
+  
+    
 }
 header .nav{
     justify-content: flex-end;
@@ -40,16 +43,19 @@ header .nav ul li{
     font-family: 'Fira Code', monospace;
     }
 header .hero img:hover{
+
     -webkit-transform:scale(1.15);
     transition:all .90s ease-in-out;
     
+    
 }
 header .hero{
-    
+    margin-top: 100px;
     text-align: center;
 }
 header .hero h1{
-    margin-top: 40px;
+
+    margin-top: 70px;
     color: #ffffff;
 }
 
@@ -59,16 +65,29 @@ header  .hero h3{
 }
 .servicios{
     width: 100%;
+    
     position: relative no-repeat;
     padding-bottom: 200px;
-    padding-top: 40px;
-    background: #000000 center no-repeat;
+    padding-top: 40px;    
     background-size: cover;   
     
 }
 .servicios h1{
     color: #ffffff;
+    font-size: 60px;
 }
 .servicios h3{
+    margin-top: 40px;
     color: #ffffff;
+    text-justify: auto;
+}
+
+.nosotros h2{
+    font-size: 40px;
+    color: #ffffff;
+}
+.nosotros h1{
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
 }
