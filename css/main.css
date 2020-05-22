@@ -1,17 +1,11 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding:0;
-}
 header{
-    
-    position: relative no-repeat;
-    padding-bottom: 200px;
+    width: 100%;
+    position: relative;
     padding-top: 40px;
-    background: 100%;
-    background: url(../img/man-in-raglan-sleeve-shirt-using-computer-2330137.jpg) center no-repeat ;
-    background-size: cover;  
-  
+    background: url(../img/header_home.png)center no-repeat ;
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 100px;
     
 }
 header .nav{
@@ -64,30 +58,55 @@ header  .hero h3{
     margin-bottom: 100px;
 }
 .servicios{
+    margin-top:40px;
     width: 100%;
-    
-    position: relative no-repeat;
-    padding-bottom: 200px;
+    position: relative;
+    background: #ffffff;
+    padding-bottom: 100px;
     padding-top: 40px;    
     background-size: cover;   
     
 }
-.servicios h1{
-    color: #ffffff;
+.servicios h1{    
     font-size: 60px;
+    text-justify: right;
 }
 .servicios h3{
-    margin-top: 40px;
-    color: #ffffff;
-    text-justify: auto;
+    margin-top: 20px;    
+    text-justify: right;
+}
+.servicios .icon_2{
+    text-align: right;
+}
+.servicios .icon_1{
+    text-align: right;
+    padding-top: 40px;
+   
 }
 
-.nosotros h2{
-    font-size: 40px;
+.nosotros_container{
+    margin-top:40px;
+    width: 100%;
+    position: relative;
+    background: #000000;
+    padding-bottom: 200px;
+    padding-top: 40px;    
+    background-size: cover;   
+
+}
+.nosotros h3{
+    margin-top: 40px;    
+    text-justify: auto;
     color: #ffffff;
 }
-.nosotros h1{
+.nosotros h2{
+    font-size: 50px;
+    color: #ffffff;    
+}
+.nosotros_container h1{
+    margin-top: 40px;
     font-size: 60px;
-    color: #ffffff;
     text-align: center;
+    color: #ffffff;
+
 }
